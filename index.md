@@ -24,3 +24,5 @@ This is a codeblock
 3 back ticks
 indent 4 spaces
 ```
+[Lab Report 1](lab-report-1-week-0.html)
+[Lab Report 1](https://jadontran.github.io/cse15l-lab-reports/lab-report-1-week-0.html)
