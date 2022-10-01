@@ -1,3 +1,8 @@
+## Lab Reports
+
+[Lab Report 1](https://jadontran.github.io/cse15l-lab-reports/lab-report-1-week-0.html)
+[Lab Report 2](https://jadontran.github.io/cse15l-lab-reports/lab-report-1-week-0.html)
+
 Hello World!  
 *This is italicized*  
 **This is bolded**  
