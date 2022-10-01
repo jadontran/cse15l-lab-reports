@@ -19,8 +19,8 @@
 
 
 ### Step 5 - Setting an SSH Key
-![Image] ()
+![Image](SSH%20Keys.png))   
 
 
 ### Step 6 - Optimize Remote Running
-![Image] ()
+![Image]()
