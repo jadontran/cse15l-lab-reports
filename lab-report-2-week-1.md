@@ -37,4 +37,6 @@ On this step, we'll be moving a file from your local computer to the remote serv
 In order to setup an SSH Key, you need to type the command ssh-keygen into your terminal on your local computer client. Again, a few messages will appear, for which you can simply press enter for each one. After those messages, you should log back into your remote server using the ssh command and type the command `$ mkdir .ssh` into the terminal. Now, go back to your local computer client, and type the command `$ scp /Users/jadontran/.ssh/id_rsa.pub cs15lfa22mo@ieng6.ucsd.edu:~/.ssh/authorized_keys` to finish setting up your SSH key.
 
 ### Step 6 - Optimize Remote Running
-![Image]()
+![Image](Making%20Remote%20Running%20Even%20More%20Pleasant.png)
+
+The last step is to create a combination of commands that will allow for the most efficient way of editing our "WhereAmI.java" file, sending it to the remote server, and running it all at once. The command that must be used for this is a condensement of three commands. I used ` scp WhereAmI.java cs15lfa22mo@ieng6.ucsd.edu:~/ ; ssh cs15lfa22mo@ieng6.ucsd.edu "javac WhereAmI.java" ; ssh cs15lfa22mo@ieng6.ucsd.edu "java WhereAmI"` which allowed me to do all three at once at the click of a button.
