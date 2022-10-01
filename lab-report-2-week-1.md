@@ -10,7 +10,7 @@ The first step is to go to![https://code.visualstudio.com/](https://code.visuals
 ### Step 2 - Remotely Connecting
 ![Image](Remotely%20Connecting.png)
 
-With that new file open, you can open the terminal by pressing "Terminal" at the very top of the application and "New Terminal." Once you've opened the terminal, you should type the command `$ ssh cs15lfa22mo@ieng6.ucsd.edu" replacing "mo" with your username. Some messages will pop up, in which you can type "yes" and your password after when told so.
+With that new file open, you can open the terminal by pressing "Terminal" at the very top of the application and "New Terminal." Once you've opened the terminal, you should type the command `$ ssh cs15lfa22mo@ieng6.ucsd.edu` replacing "mo" with your username. Some messages will pop up, in which you can type "yes" and your password after when told so.
 
 ### Step 3 - Trying Some Commands
 ![Image](Trying%20Some%20Commands.png)
