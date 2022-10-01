@@ -4,7 +4,7 @@
 ### Step 1 - Installing VScode
 ![Image](Installing%20VScode.png)
 
-The first step is to go to![https://code.visualstudio.com/](https://code.visualstudio.com/) and download Visual Studio for your operating system (Windows, Mac, etc.). Then, you will need to follow any installation steps that are required to install Visual Studio. After that, you can simply create any file for now.
+The first step is to go to ![https://code.visualstudio.com/](https://code.visualstudio.com/) and download Visual Studio for your operating system (Windows, Mac, etc.). Then, you will need to follow any installation steps that are required to install Visual Studio. After that, you can simply create any file for now.
 
 
 ### Step 2 - Remotely Connecting
