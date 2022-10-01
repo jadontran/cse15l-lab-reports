@@ -3,7 +3,8 @@
 
 ### Step 1 - Installing VScode
 ![Image](Installing%20VScode.png)
-![Link](https://code.visualstudio.com/)
+
+The first step is to go to![https://code.visualstudio.com/](https://code.visualstudio.com/) and download Visual Studio for your operating system (Windows, Mac, etc.).
 
 
 ### Step 2 - Remotely Connecting
