@@ -10,19 +10,19 @@ The first step is to go to ![https://code.visualstudio.com/](https://code.visual
 ### Step 2 - Remotely Connecting
 ![Image](Remotely%20Connecting.png)
 
-With that new file open, you can open the terminal by pressing "Terminal" at the very top of the application and "New Terminal." Once you've opened the terminal, you should type the command `$ ssh cs15lfa22mo@ieng6.ucsd.edu` replacing "mo" with your username. Some messages will pop up, in which you can type "yes" and your password after when told so.
+With that new file open, you can open the terminal by pressing "Terminal" at the very top of the application and "New Terminal." Once you've opened the terminal, you should type the command `$ ssh cs15lfa22mo@ieng6.ucsd.edu` replacing "mo" with your username. Find your username through entering your info at ![https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php) and your password through following the instructions on ![https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit).  Some messages will pop up, in which you can type "yes" and your password after when told so.
 
 ### Step 3 - Trying Some Commands
 ![Image](Trying%20Some%20Commands.png)
 
 Now that you're connected to the remote server, there are a few special commands you can try:
 
-* cd ~
-* cd
-* ls -lat
-* ls -a
-* cp /home/linux/ieng6/cs15lfa22/public/hello.txt ~/
-* cat /home/linux/ieng6/cs15lfa22/public/hello.txt
+* cd ~ : changes directory to home directory
+* cd : used to change directories
+* ls -lat : returns a list of files in the current directory
+* ls -a : returns a list of all visible and hidden files in your current directory
+* cp /home/linux/ieng6/cs15lfa22/public/hello.txt ~/ : copies hello.txt file
+* cat /home/linux/ieng6/cs15lfa22/public/hello.txt : displays the contents of hello.txt file
 
 I've tested these commands myself as shown in the screenshot. 
 
@@ -30,6 +30,19 @@ I've tested these commands myself as shown in the screenshot.
 ![Image](Moving%20Files%20with%20scp.png)
 
 On this step, we'll be moving a file from your local computer to the remote server using a command called scp. First, I created a file called "WhereAmI.java" and compiled it using the javac and java commands. Then, I typed the command `$ scp WhereAmI.java cs15lfa22mo@ieng6.ucsd.edu:~/` which will send the "WhereAmI.java" file to the remote server. You can test this by logging back into the remote server and using the `$ ls` command to see that the file is in your home directory.
+
+WhereAmI.java code:
+
+```
+class WhereAmI {
+    public static void main(String[] args) {
+      System.out.println(System.getProperty("os.name"));
+      System.out.println(System.getProperty("user.name"));
+      System.out.println(System.getProperty("user.home"));
+      System.out.println(System.getProperty("user.dir"));
+    }
+  }
+```
 
 ### Step 5 - Setting an SSH Key
 ![Image](SSH%20Keys.png))   
