@@ -77,7 +77,7 @@ class SearchEngine {
 * The symptom was that the method averageWithoutLowest was returning a value of 3.5 when it should have been returning a value of 3.0.
 * The bug was the method averageWithoutLowest was removing all the lowest values instead of a single copy of the lowest values. For example, it would remove both 1.0's in index 0 and 1 instead of one of them. In order to fix this bug, I changed the code to simply subtract the value of the lowest value one time and divide by the length of the array subtracted by 1.
 
-### ListExamples - 
+### ListExamples - filter
 * The failure inducing input was {"1", "2", "3"}.
 * The symptom was that the method filter was returning {"3", "2"} when it should have been returning {"2", "3"}.
 * The bug was that the method filter was not returning the filtered arraylist in the original order of the original arraylist. Therefore, I had to add an index value to maintain the order of the filtered arraylist.
