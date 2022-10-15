@@ -28,6 +28,7 @@ I've tested these commands myself as shown in the screenshot.
 
 ### Step 4 - Moving Files with scp
 ![Image](Moving%20Files%20with%20scp.png)
+![Image](SCP.png)
 
 On this step, we'll be moving a file from your local computer to the remote server using a command called scp. First, I created a file called "WhereAmI.java" and compiled it using the javac and java commands. Then, I typed the command `$ scp WhereAmI.java cs15lfa22mo@ieng6.ucsd.edu:~/` which will send the "WhereAmI.java" file to the remote server. You can test this by logging back into the remote server and using the `$ ls` command to see that the file is in your home directory.
 
@@ -46,7 +47,6 @@ class WhereAmI {
 
 ### Step 5 - Setting an SSH Key
 ![Image](SSH%20Keys.png)  
-![Image](SCP.png)
 
 In order to setup an SSH Key, you need to type the command ssh-keygen into your terminal on your local computer client. Again, a few messages will appear, for which you can simply press enter for each one. After those messages, you should log back into your remote server using the ssh command and type the command `$ mkdir .ssh` into the terminal. Now, go back to your local computer client, and type the command `$ scp /Users/jadontran/.ssh/id_rsa.pub cs15lfa22mo@ieng6.ucsd.edu:~/.ssh/authorized_keys` to finish setting up your SSH key.
 
