@@ -45,7 +45,8 @@ class WhereAmI {
 ```
 
 ### Step 5 - Setting an SSH Key
-![Image](SSH%20Keys.png))   
+![Image](SSH%20Keys.png)  
+![Image](SCP.png)
 
 In order to setup an SSH Key, you need to type the command ssh-keygen into your terminal on your local computer client. Again, a few messages will appear, for which you can simply press enter for each one. After those messages, you should log back into your remote server using the ssh command and type the command `$ mkdir .ssh` into the terminal. Now, go back to your local computer client, and type the command `$ scp /Users/jadontran/.ssh/id_rsa.pub cs15lfa22mo@ieng6.ucsd.edu:~/.ssh/authorized_keys` to finish setting up your SSH key.
 
