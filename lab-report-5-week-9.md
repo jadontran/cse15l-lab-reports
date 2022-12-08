@@ -77,28 +77,30 @@ This submission has the correct file with the wrong name, therefore it is not fo
 ## Tracing Student Submission (Filename)
 
 * Line 3 : 
-    stdout = N/A
-    stderr = N/A
-    return code = 0
+    * stdout = N/A
+    * stderr = N/A
+    * return code = 0
 * Line 4 : 
-    stdout = N/A
-    stderr = N/A
-    return code = 0
+    * stdout = N/A
+    * stderr = N/A
+    * return code = 0
 * Line 5 : 
-    stdout = N/A
-    stderr = Cloning into ‘student-submission' . . .
-    return code = 0
+    * stdout = N/A
+    * stderr = Cloning into ‘student-submission' . . .
+    * return code = 0
 * Line 6 : 
-    stdout = N/A
-    stderr = N/A
-    return code = 0
-* Line 12 : The condition was false because the submission gave the file the wrong name. Thus, no "ListExamples.java" file was found.
+    * stdout = N/A
+    * stderr = N/A
+    * return code = 0
+* Line 12 : 
+    * The condition was false because the submission gave the file the wrong name. Thus, no "ListExamples.java" file was found.
 * Line 15 :  
-    stdout = ListExamples.java is not found!
-    stderr = N/A
-    return code = 0
+    * stdout = ListExamples.java is not found!
+    * stderr = N/A
+    *   return code = 0
 * Line 16 :
     stdout = N/A
     stderr = N/A
     return code = 1
-* Lines 17-54 : These lines will not run because there is an early exit on Line 16 after it fails to detect a ListExamples.java file.
+* Lines 17-54 : 
+    * These lines will not run because there is an early exit on Line 16 after it fails to detect a ListExamples.java file.
