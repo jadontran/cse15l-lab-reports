@@ -2,7 +2,7 @@
 
 ## Grading Script
 
-[grade.sh](https://jadontran.github.io/cse15l-lab-reports/lab-report-1-week-0.html)
+[grade.sh](gradescript.md) 
 
 ## Student Submission Examples
 
