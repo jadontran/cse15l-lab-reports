@@ -99,8 +99,8 @@ This submission has the correct file with the wrong name, therefore it is not fo
     * stderr = N/A
     *   return code = 0
 * Line 16 :
-    stdout = N/A
-    stderr = N/A
-    return code = 1
+    * stdout = N/A
+    * stderr = N/A
+    * return code = 1
 * Lines 17-54 : 
     * These lines will not run because there is an early exit on Line 16 after it fails to detect a ListExamples.java file.
