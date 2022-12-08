@@ -6,16 +6,23 @@
 
 ## Student Submission Examples
 
+### List Methods Corrected
+![Image]()
+
+
+### List Methods Compile Error
 ![Image]()
 
 
 
+### List Methods Signature
 ![Image]()
 
 
 
-![Image]()
+## Tracing Student Submission (Corrected)
 
 
-
-## Tracing 
+* For this run, the standard output is , and the standard error is . The return code was
+* For this if statement, the condition was true.
+* 
